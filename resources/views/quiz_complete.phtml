@@ -1,0 +1,3 @@
+<h2>Thanks, <?= htmlentities($user['name'], ENT_QUOTES, 'UTF-8'); ?>!</h2>
+
+<p>You responded correctly to <?= $quizResult['answered_correctly']; ?> out of <?= $quizResult['total_questions']; ?> questions.</p>
